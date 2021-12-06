@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+/* GLOBAIS */
+
+body{
+    margin: 0;
+    font-family:'Raleway', sans-serif;
+}
+
+
+html{
+    font-size: 10px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+
+section{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+/*BANNER*/
+
+header{
+    background-image: url(../img/back.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+    display: flex; /*Reseta o block*/
+}
+
+.banner__conteudo{
+    text-align: center;
+    margin: auto; /*centraliza na horizontal e na vertical*/
+    }
+
+h1{
+    font-size: 5rem;
+    color: white;
+}
+
+
+.banner__conteudo p{
+    font-size: 2rem;
+    color: white;
+}
+
+.banner__conteudo a{
+    font-size: 1,5rem;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 5rem;
+}
+
+
+.btn{
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 5rem;
+}
+
+.btn__branco{
+    color: #7E459B;
+    background-color: white;
+}
+
+.banner__conteudo a:hover{
+    color: white;
+    background-color: #7E459B;
+
+}
+
+.banner__conteudo a:hover{
+    color: white;
+    background-color: #7E459B;
+    transition: 0.4s;
+}
+
+.banner__conteudo a:active{
+    color: white;
+    background-color: #7E459B;
+    border: 2px solid white;
+    transition: 0.2s;
+}
+
+
+/* SEÇÃO SOBRE MIM E HABILIDADES */
+
+.sobre-mim h2{
+    color: #CBC1C1;
+    font-size: 5rem;
+    letter-spacing: 0.1rem;
+}
+.sobre-mim__conteudo{
+    display: flex;
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+
+.sobre-mim__descricao, .sobre-mim__habilidades{
+    width: 50%;
+}
+
+.sobre-mim{
+    margin-top: 10rem;
+}
+
+.btn__roxo{
+    color: #7E459B;
+    border: 0.25rem solid ;
+}
+
+.sobre-mim__habilidades{
+    padding-left: 5rem;
+}
+
+.sobre-mim__descricao__texto {
+    font-size: 1.6rem;
+}
+
+
+/* SEÇÃO REDES SOCIAIS */
+
+.redes-sociais{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.redes-sociais a{
+    color: white;
+    font-size: 1.8rem;
+}
+
+.redes-sociais__facebook, .redes-sociais__instagram, .redes-sociais__linkedin, .redes-sociais__github{
+    background-color: #7E459B;
+    padding: 3rem;
+}
+
+
+.redes-sociais__nome{
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+/*SEÇÃO DO RODAPÉ*/
+
+footer{
+    margin: 5rem;
+}
+
+footer p{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #CBC1C1;
+}
